@@ -170,17 +170,6 @@ El frontend estará disponible en `http://localhost:3000`
 | `PATCH` | `/api/v1/orders/{id}/` | Actualizar pedido |
 | `DELETE` | `/api/v1/orders/{id}/` | Eliminar pedido |
 
-## Capturas de Pantalla
-
-### Dashboard
-Panel principal con estadísticas de ventas, pedidos pendientes y productos más vendidos.
-
-### Gestión de Pedidos
-Vista de todos los pedidos con filtros por estado, fecha y búsqueda por nombre/teléfono.
-
-### Registro de Pedidos
-Formulario completo para crear nuevos pedidos con validación en tiempo real.
-
 ## Reglas de Negocio
 
 1. **Estados de Pedidos**:
@@ -217,6 +206,7 @@ Desarrollado como proyecto de aprendizaje y crecimiento profesional en desarroll
 ## Contacto
 
 Para preguntas, sugerencias o reportar problemas, por favor abre un issue en el repositorio.
+
 
 
 
