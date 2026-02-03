@@ -13,7 +13,7 @@ El objetivo principal fue crear una aplicación práctica que no solo resuelva u
 - **Gestión de Pedidos**: Visualización, filtrado y búsqueda de pedidos por fecha, estado o cliente
 - **Actualización de Estados**: Cambio de estado entre pendiente, entregado y cancelado
 - **Análisis de Ventas**: Gráficos de ventas de los últimos 7 días y distribución por estado
-- **Interfaz Moderna**: Diseño responsive con tema claro/oscuro
+- **Interfaz Moderna**: Diseño responsive
 - **Notificaciones**: Feedback visual mediante toasts para todas las acciones
 
 ## Tecnologías Utilizadas
@@ -217,5 +217,6 @@ Desarrollado como proyecto de aprendizaje y crecimiento profesional en desarroll
 ## Contacto
 
 Para preguntas, sugerencias o reportar problemas, por favor abre un issue en el repositorio.
+
 
 
