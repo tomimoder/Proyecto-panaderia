@@ -1,22 +1,22 @@
-# 🧁 Sistema de Gestión de Pedidos - Pastelería
+# Sistema de Gestión de Pedidos - Pastelería
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Sistema web desarrollado para la gestión integral de pedidos de una pastelería. Este proyecto nace de la necesidad de digitalizar y organizar el proceso de registro, seguimiento y administración de pedidos, reemplazando métodos manuales por una solución moderna y eficiente.
 
 El objetivo principal fue crear una aplicación práctica que no solo resuelva un problema real, sino que también sirva como experiencia de aprendizaje en el desarrollo full-stack de aplicaciones web modernas.
 
-## 🎯 Características Principales
+## Características Principales
 
-- ✅ **Registro de Pedidos**: Formulario intuitivo para crear nuevos pedidos con validación de datos
-- 📊 **Dashboard de Estadísticas**: Visualización de métricas clave (ventas, pedidos pendientes, productos más vendidos)
-- 🔍 **Gestión de Pedidos**: Visualización, filtrado y búsqueda de pedidos por fecha, estado o cliente
-- 🔄 **Actualización de Estados**: Cambio de estado entre pendiente, entregado y cancelado
-- 📈 **Análisis de Ventas**: Gráficos de ventas de los últimos 7 días y distribución por estado
-- 🎨 **Interfaz Moderna**: Diseño responsive con tema claro/oscuro
-- 🔔 **Notificaciones**: Feedback visual mediante toasts para todas las acciones
+- **Registro de Pedidos**: Formulario intuitivo para crear nuevos pedidos con validación de datos
+- **Dashboard de Estadísticas**: Visualización de métricas clave (ventas, pedidos pendientes, productos más vendidos)
+- **Gestión de Pedidos**: Visualización, filtrado y búsqueda de pedidos por fecha, estado o cliente
+- **Actualización de Estados**: Cambio de estado entre pendiente, entregado y cancelado
+- **Análisis de Ventas**: Gráficos de ventas de los últimos 7 días y distribución por estado
+- **Interfaz Moderna**: Diseño responsive con tema claro/oscuro
+- **Notificaciones**: Feedback visual mediante toasts para todas las acciones
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 ### Frontend
 - **Framework**: [Next.js 14](https://nextjs.org/) (React)
@@ -35,7 +35,7 @@ El objetivo principal fue crear una aplicación práctica que no solo resuelva u
 - **API**: [Django REST Framework](https://www.django-rest-framework.org/)
 - **Base de Datos**: SQLite (desarrollo) / PostgreSQL (producción recomendada)
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 ├── Backend/
@@ -71,7 +71,7 @@ El objetivo principal fue crear una aplicación práctica que no solo resuelva u
 └── README.md
 ```
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 ### Prerrequisitos
 - Node.js 18+ y npm/pnpm
@@ -141,7 +141,7 @@ pnpm dev
 
 El frontend estará disponible en `http://localhost:3000`
 
-## 📊 Modelo de Datos
+## Modelo de Datos
 
 ### Tabla: `orders`
 
@@ -160,7 +160,7 @@ El frontend estará disponible en `http://localhost:3000`
 | `created_at` | DateTime | Fecha de creación |
 | `updated_at` | DateTime | Última actualización |
 
-## 🔌 API Endpoints
+## API Endpoints
 
 | Método | Endpoint | Descripción |
 |--------|----------|-------------|
@@ -170,7 +170,7 @@ El frontend estará disponible en `http://localhost:3000`
 | `PATCH` | `/api/v1/orders/{id}/` | Actualizar pedido |
 | `DELETE` | `/api/v1/orders/{id}/` | Eliminar pedido |
 
-## 🎨 Capturas de Pantalla
+## Capturas de Pantalla
 
 ### Dashboard
 Panel principal con estadísticas de ventas, pedidos pendientes y productos más vendidos.
@@ -181,7 +181,7 @@ Vista de todos los pedidos con filtros por estado, fecha y búsqueda por nombre/
 ### Registro de Pedidos
 Formulario completo para crear nuevos pedidos con validación en tiempo real.
 
-## 🔒 Reglas de Negocio
+## Reglas de Negocio
 
 1. **Estados de Pedidos**:
    - Los pedidos comienzan en estado `pendiente`
@@ -198,7 +198,7 @@ Formulario completo para crear nuevos pedidos con validación en tiempo real.
    - La cantidad debe ser mayor a 0
    - El precio debe ser positivo
 
-## 🚧 Mejoras Futuras
+## Mejoras Futuras
 
 - [ ] Autenticación y autorización de usuarios
 - [ ] Sistema de inventario de productos
@@ -209,27 +209,13 @@ Formulario completo para crear nuevos pedidos con validación en tiempo real.
 - [ ] Calendario de entregas
 - [ ] Aplicación móvil
 
-## 👨‍💻 Autor
+## Autor
 
 Desarrollado como proyecto de aprendizaje y crecimiento profesional en desarrollo full-stack.
 
-## 📝 Licencia
 
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
-
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Haz fork del proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📞 Contacto
+## Contacto
 
 Para preguntas, sugerencias o reportar problemas, por favor abre un issue en el repositorio.
 
----
 
-⭐ Si este proyecto te fue útil, considera darle una estrella en GitHub!
